@@ -65,3 +65,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # laravel-multi-user-login-middleware
+
+1. Composer 
+    ```
+    composer update
+    composer install
+    ```
+2. Command line & Setting your database 
+    ```
+    cp .env.example .env
+    ```
+3. Create Database 
+    ```
+    php artisan migrate
+    ```
+4. After that
+    ```
+    php artisan db:seed --class=DummyUsersSeeder
+    ```
+5. and Finally
+    ```
+    php artisan serve
+    ```
+6. Enjoy the program
+
